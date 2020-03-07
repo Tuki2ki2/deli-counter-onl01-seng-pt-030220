@@ -1,1 +1,15 @@
 # Write your code here.
+
+def line(katz_deli)
+  wording = "The line is currently"
+  if katz_deli.count == 0
+    wording << " empty."
+    puts wording
+  elsif katz_deli.count >= 1
+    wording << ":"
+    katz_deli.each_with_index do |a,index|
+      wording << " #{index +1}. #{a}"
+    end
+    puts wording
+  end
+end
