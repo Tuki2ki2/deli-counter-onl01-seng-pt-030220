@@ -32,7 +32,7 @@ def take_a_number(katz_deli,name)
     if katz_deli.count == 0
       puts "There is nobody waiting to be served!"
     elsif katz_deli.count >=1
-      puts "Currently serving#{katz_deli(0)}"
+      puts "Currently serving #{katz_deli(0)}"
       katz_deli.shift
       puts katz_deli
     end
