@@ -16,10 +16,10 @@ end
 
 def take_a_number(katz_deli,name)
   if (katz_deli.index(name) == nil) && (katz_deli.count ==0)
-    puts "Welcome, #{name}. You are number 1 in line"
+    puts "Welcome, #{name}. You are number 1 in line."
   elsif
     katz_deli.index(name)
-    puts "Welcome, #{name}.You are number #{katz_deli.index(name)+1} in line"
+    puts "Welcome, #{name}.You are number #{katz_deli.index(name)+1} in line."
   elsif
     katz_deli.index(name) == nil && (katz_deli.count >= 1)
     katz_deli << name
