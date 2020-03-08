@@ -33,6 +33,6 @@ def take_a_number(katz_deli,name)
       puts "There is nobody waiting to be served!"
     elsif katz_deli.count >=1
       katz_deli.shift
-      puts katz_deli
+      puts "Currently serving Logan."
     end
   end
