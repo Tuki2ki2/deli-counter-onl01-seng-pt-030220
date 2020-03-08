@@ -16,7 +16,7 @@ end
 
 def take_a_number(katz_deli,name)
   if katz_deli.index(name) == nil
-    puts "Welcome, #{name}. You are #{katz_deli.index(name)+1} in line."
+    puts "Welcome, #{name}. You are."
       elsif
       katz_deli.index(name)
       puts "Welcome, #{name}.You are number #{katz_deli.index(name)+1} in line"
