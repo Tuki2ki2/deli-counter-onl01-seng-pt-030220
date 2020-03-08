@@ -13,3 +13,26 @@ def line(katz_deli)
     puts wording
   end
 end
+
+def take_a_number(katz_deli,name)
+  if (katz_deli.index(name) == nil) && (katz_deli.count ==0)
+    katz_deli << name
+    puts "Welcome, #{name}. You are number #{katz_deli.index(name)+1} in line."
+  elsif
+    katz_deli.index(name)
+    puts "Welcome, #{name}.You are number #{katz_deli.index(name)+1} in line."
+  elsif
+    katz_deli.index(name) == nil && (katz_deli.count >= 1)
+    katz_deli << name
+    puts "Welcome, #{name}. You are number #{katz_deli.index(name)+1} in line."
+  end
+  end
+
+  def now_serving(katz_deli)
+    if katz_deli.count == 0
+      puts "There is nobody waiting to be served!"
+    elsif katz_deli.count >=1
+      katz_deli.shift
+      puts "Currently serving Logan."
+    end
+  end
